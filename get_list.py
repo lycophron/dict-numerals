@@ -106,10 +106,10 @@ if __name__ == '__main__':
     API.range(18, 22)
 
     # this is the real deal
-    #h_api.fractions()
-    #h_api.small_fractions(1, 4)
-    #h_api.range(0, 2000)
-    #h_api.large_numbers(1, 103)
+    #API.fractions()
+    #API.small_fractions(1, 4)
+    #API.range(0, 2000)
+    #API.large_numbers(1, 103)
 
     # save the results in different formats
     with open('numbers.hu.json', 'w+') as f_p:
